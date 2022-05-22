@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>my todo-list</title>
+  </head>
+  <body>
+    <!-- calendar And clock And weather -->
+    <section class="date-table">
+      <div class="clock_calendar_weather">
+        <!-- calendar -->
+        <div class="small-calendar">
+          <h2>0000년 00월 00일</h2>
+        </div>
+
+        <!-- clock -->
+        <div class="clock">
+          <h1>00:00:00</h1>
+        </div>
+
+        <!-- wheather -->
+        <div id="weather">
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </section>
+
+    <!-- weatherImage -->
+    <section class="weatherImage">
+    </section>
+
+    <!-- login -->
+    <section class="login-table">
+      <div class="login">
+        <h1>Hello!</h1>
+        <form id="login-form" class="hidden">
+          <input
+            required
+            type="text"
+            placeholder="Write Your Name"
+            maxlength="15"
+          />
+          <button>
+            Log In
+          </button>
+        </form>
+        <div id="greeting" class="hidden">
+        </div>
+      </div>
+    </section>
+
+    <!-- todolist -->
+    <section class="todo-list">
+      <div class="form">
+        <form id="todo-form">
+          <input
+            type="text"
+            placeholder="Write your ToDoList"
+            required
+          />
+          <button>
+            +
+          </button>
+        </form>
+      </div>
+      <div class="list">
+        <div class="new">
+          <h2>오늘 할 일</h2>
+          <div id="new-list">
+            <ul></ul>
+          </div>
+          <button id="all-delete-todos">
+            Del
+          </button>
+        </div>
+        <div class="complete">
+          <h2>완료한 일</h2>
+          <div id="complete-list">
+            <ul></ul>
+          </div></div>
+        </div>
+      </div>
+    </section>
+
+    <script src="todo_list.js"></script>
+    <script src="login.js"></script>
+    <script src="clock.js"></script>
+    <script src="background.js"></script>
+    <script src="calendar.js"></script>
+    <script src="weather.js"></script>
+  </body>
+</html>
