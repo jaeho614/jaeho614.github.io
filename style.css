@@ -1,0 +1,161 @@
+/* body */
+body {
+  padding: 30px;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+.effect {
+  color: red;
+  font-weight: 1000;
+}
+
+.hidden {
+  display: none;
+}
+
+/* Login */
+.login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 50px;
+  font-size: 30px;
+  color: black;
+}
+
+/* date-table */
+.date-table {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.date-table .clock_calendar_weather {
+  display: flex;
+  flex-direction: column;
+  margin-left: 87%;
+  border: 2px solid grey;
+  border-radius: 8px;
+  height: 120px;
+  width: 200px;
+  align-items: center;
+  box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+
+.date-table .clock_calendar_weather .small-calendar {
+  font-size: 12px;
+  height: 40px;
+}
+
+.date-table .clock_calendar_weather .clock {
+  margin-top: 5px;
+  font-size: 30px;
+}
+
+.date-table .clock_calendar_weather #weather {
+  margin-top: 5px;
+  margin-right: 43px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+/* weather image*/
+.weatherImage img {
+  display: flex;
+  flex-direction: column;
+  margin-top: 5px;
+  margin-left: 87%;
+  width: 200px;
+  height: 60px;
+  z-index: -1;
+  border: 2px solid grey;
+  border-radius: 8px;
+}
+
+/* todo_list */
+.todo-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.list {
+  display: flex;
+}
+
+.todo-list .form {
+  margin-bottom: 30px;
+}
+
+.list .new {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 30px;
+}
+
+.list .new #all-delete-todos {
+  all: unset;
+  margin-right: 74%;
+  margin-top: 5px;
+  border: 1.5px solid grey;
+  border-radius: 5px;
+  text-align: center;
+  height: 25px;
+  width: 50px;
+  background-color: red;
+}
+
+.list .new #all-delete-todos:active {
+  transform: scale(0.92);
+}
+
+.list #new-list {
+  align-items: center;
+  border: 1.5px solid black;
+  border-radius: 5px;
+  background-color: white;
+  height: 300px;
+  width: 200px;
+  box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+  overflow: auto;
+}
+
+.list #new-list ul {
+  padding-left: 8px;
+}
+
+.list .complete {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 30px;
+}
+
+.list #complete-list {
+  align-items: center;
+  border: 1.5px solid black;
+  border-radius: 5px;
+  background-color: white;
+  height: 300px;
+  width: 200px;
+  box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+  overflow: auto;
+}
+
+.list #complete-list ul {
+  padding-left: 8px;
+}
+
+#complete-list {
+  text-decoration: line-through;
+}
