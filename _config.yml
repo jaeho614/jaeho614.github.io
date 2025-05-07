@@ -114,11 +114,11 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
-  location         : "Somewhere"
-  email            :
+  name             : "Jae-Ho Choi"
+  avatar           : "/assets/images/profile.jpg"
+  bio              : "금오공과대학교 전자공학부"
+  location         : "Daejeon, South Korea"
+  email            : "jaeho614a@gmail.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
