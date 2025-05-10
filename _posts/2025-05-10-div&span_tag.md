@@ -8,6 +8,7 @@
 -  `div 태그`를 계속 사용하는 이유
 1. 오래된 웹 브라우저의 지원을 위해서
 2. 지원하지 않는 브라우저에서 레이아웃, 기능, 문서의 접근성 등의 문제가 발생할 수 있어서
+
 ```javascript
 <div style="background-color: antiquewhite">전 div입니다</div>
 ```
