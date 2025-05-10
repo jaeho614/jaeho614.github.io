@@ -27,9 +27,9 @@
 
 | | Block | Inline | Inline-Block |
 | --- | :---: | :---: | :---: |
-| 요소 포함 | 인라인 요소 포함 가능 | 블록 요소 포함 불가<br /> (`a 태그`만 가능) | - |
-| 줄바꿈 | O (세로로 쌓임) | X (가로로 쌓임) | X (세로로 쌓임) |
-| width, height | O | X | O |
+| 요소 포함 | 인라인 요소<br />포함 가능 | 블록 요소 포함 불가<br />(`a 태그`만 가능) | - |
+| 줄바꿈 | O<br />(세로로 쌓임) | X<br />(가로로 쌓임) | X<br />(세로로 쌓임) |
+| width,<br />height | O | X | O |
 | padding | O | O | O |
-| margin | O |△ (left, rigth만 적용 / top, bottom 적용 X) | O |
+| margin | O |△<br />(left, rigth만 적용/<br />top, bottom 적용 X) | O |
 | border | O | O | O |
